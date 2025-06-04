@@ -1,0 +1,64 @@
+# -------------------------------
+# 📁 VIRTUAL ENVIRONMENTS
+# -------------------------------
+.venv/
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+
+# -------------------------------
+# 🧪 DATASETS (Takip edilmesin)
+# -------------------------------
+data-sets/Dataset/s-train/
+data-sets/Dataset/s-test/
+data-sets/Dataset/s-val/
+data-sets/Dataset/train/
+data-sets/Dataset/test/
+data-sets/Dataset/*.zip
+data-sets/Dataset/*.tar.gz
+data-sets/Dataset/*.csv
+data-sets/Dataset/*.json
+data-sets/Dataset/*.xlsx
+data-sets/Dataset/medical-data/*.csv
+data-sets/Dataset/medical-data/*.xlsx
+
+# Eğer klasör yapısını korumak istiyorsan boş .gitkeep dosyaları bırak:
+# !data-sets/Dataset/.gitkeep
+
+# -------------------------------
+# 🧠 MODEL DOSYALARI
+# -------------------------------
+# models/
+# models/*.pth
+# models/*.h5
+# models/*.ckpt
+# models/*.onnx
+
+# -------------------------------
+# 📜 TRAINING ARTIFACTS / LOGS
+# -------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+cache/
+logs/
+
+# -------------------------------
+# 📊 NOTEBOOKLAR VE GEÇİCİLER
+# -------------------------------
+.ipynb_checkpoints/
+*.ipynb~*
+
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+.pdf
+
+node_modules/
